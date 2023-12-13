@@ -42,7 +42,7 @@ console.log("gallery");
   // };
   const modalImg = event.target.closest(".gallery__link").getAttribute("href");
   console.log(modalImg)
-
+ // gallery.refresh(); // gallery.refresh();
 //  -----------------------------------------------------------
 let gallery = new SimpleLightbox('.gallery-list a');
  gallery.refresh();
